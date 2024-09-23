@@ -20,6 +20,6 @@ void CreateConsole() {
 DWORD WINAPI Main() {
     CreateConsole();
     I::Init(GetModuleHandleA("GameAssembly.dll"), I::Mode::Il2Cpp); //Initializating IL2Cpp Runtime :D
-    I::DumpToFile("C:\\dump\\dumped.txt");
+    I::DumpToFile("C:\\dump\\dumpedgame");
     return TRUE;
 }
